@@ -14,3 +14,6 @@ text.addEventListener('input',function(){
     textError.textContent= "";
     else textError.textContent = "Name Is Incorrect";
 });
+
+
+
