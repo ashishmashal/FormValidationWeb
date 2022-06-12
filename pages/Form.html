@@ -37,7 +37,7 @@
         <div>
             <label for="tel">Enter the phone Numnber</label>
             <input type="email" name="tel" id="tel" required>
-            <error-output class="tel-error" for="tell"></error-output>
+            
         </div>
         <div>
             <label for="search">Search input type</label>
@@ -58,13 +58,8 @@
             <button>Submit</button>
         </div>
     </form>
-    <script>
-        const salary = document.querySelector('#salary');
-        const output = document.querySelector('.salary-output');
-        output.textContent = salary.value;
-        salary.addEventListener('input', function () {
-            output.textContent = salary.value;
-        });
+    <script src="/js/Form.js">
+        
     </script>
 </body>
 </html>
